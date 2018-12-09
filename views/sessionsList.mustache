@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Sessions</title>
+</head>
+
+<body>
+
+  <main>
+    <table>
+      <thead>
+        <tr>
+          <th>Session Name</th>
+          <th>Email</th>
+          <th>Token</th>
+          <th>Issued At</th>
+        </tr>
+      </thead>
+      <tbody id="main">
+      {{#sessions}}
+      <tr>
+        <td>{{ id }}</td>
+        <td>{{ email }}</td>
+        <td>{{ token }}</td>
+        <td>{{ start }}</td>
+      </tr>
+      {{/sessions}}
+      </tbody>
+    </table>
+  </main>
+
+  <script src="/js/listSessions.js"></script>
+</body>
+
+</html>

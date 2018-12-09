@@ -1,0 +1,50 @@
+<table width="100%" border="0" cellspacing="0" cellpadding="0" style="width:100% !important;">
+  <tr>
+    <td align="center">
+      <table style="border:1px solid #eaeaea; border-radius: 5px; margin: 40px;" width="600" cellspacing="0"
+        cellpadding="40">
+        <tr>
+          <td>
+            <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif">
+              <table width="100%" style="width: 100% !important;">
+                <tr>
+                  <td align="center">
+                    <div>
+                      <img src="http://{{ host }}/assets/logo.png" alt="Logo" width="100" height="100"></div>
+                    <h1>Verify your email to log in</h1>
+                  </td>
+                </tr>
+              </table>
+              <p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif">
+                We received a login attempt with the following code:</p>
+              <table width="100%" style="width: 100% !important;">
+                <tr>
+                  <td align="center" bgcolor="#f6f6f6" valign="center" height="40" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif">
+                    <p>{{ session }}</p>
+                  </td>
+                </tr>
+              </table>
+              <br />
+              <p>To complete the login process, please click the button below:</p>
+              <br />
+              <table width="100%" style="width: 100% !important;">
+                <tr>
+                  <td align="center">
+                    <a href="{{ url }}" style="display:inline-block;border-radius:5px;color:#ffffff;background-color:#000;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;font-size:12px;font-weight:500;line-height:50px;text-align:center;text-decoration:none;width:200px;-webkit-text-size-adjust:none;">
+                      VALIDATE
+                    </a>
+                  </td>
+                </tr>
+              </table>
+              <br />
+              <p>Or copy and paste this URL into your browser:</p>
+              <p>
+                <a href="{{ url }}">{{ url }}</a>
+              </p>
+            </div>
+        </tr>
+    </td>
+</table>
+</td>
+</tr>
+</table>
