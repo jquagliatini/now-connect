@@ -14,7 +14,11 @@
     "email",
     "login"
   ],
-  "author": "jquagliatini <8466681+jquagliatini@users.noreply.github.com>",
+  "author": "jquagliatini <jordan.quagliatini+github@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jquagliatini/now-connect.git"
+  },
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.18.3",
